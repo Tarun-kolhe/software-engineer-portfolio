@@ -1,0 +1,20 @@
+{
+  "labelProject": "Projects",
+  "projectLabelDescription": "My portfolio features a diverse collection of impactful projects where I’ve applied my proficiency in React.js and related technologies to develop forward-thinking web solutions, showcasing a solid understanding of user-centric design principles and clean, efficient code implementation.",
+  "projects": [
+    {
+      "projectTitle": "Video Library",
+      "projectImage": "assets/project_1.jpeg",
+      "projectDescription": "The Video Library Application is a full-stack web platform designed to offer a seamless experience for both users and administrators. Built using the MERN stack with TypeScript for the frontend, this project enables users to watch curated video content while providing admin users robust controls to manage the platform's content and users.",
+      "projectThesisLink": "/link",
+      "projectLinkLabel": "Case Study"
+    },
+    {
+      "projectTitle": "TaskNest – Smart Task Management App",
+      "projectImage": "assets/project_2.png",
+      "projectDescription": "TaskNest is a full-stack task management web application designed to help users efficiently plan, organize, and track their daily tasks. With a clean and responsive interface, users can manage their to-dos, set priorities, and track progress in real time. The app is built using the MERN stack with React + TypeScript for robust and scalable frontend development.",
+      "projectThesisLink": "/link",
+      "projectLinkLabel": "Case Study"
+    }
+  ]
+}

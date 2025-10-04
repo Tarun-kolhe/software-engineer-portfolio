@@ -1,0 +1,51 @@
+{
+    "logoimage": "assets/my pic.jpg",
+    "username": "MR.TARUN KOLHE",
+    "headerLinks": [
+        {
+            "label": "HOME",
+            "link": "/home"
+        },
+        {
+            "label": "ABOUT",
+            "link": "/about"
+        },
+        {
+            "label": "PROJECT",
+            "link": "/project"
+        },
+        {
+            "label": "CONTACT",
+            "link": "/contact"
+        }
+    ],
+    "greetings": "Hey, I'm",
+    "typewords": ["Tarun Kolhe", "software engineer", "Frontend Developer", "React Enthusiast"],
+    "description": "Translating ideas into impactful and engaging digital experiences by integrating modern technologies, clean and scalable design systems, and thoughtful strategy-showcasing my evolution as a purpose-driven and endlessly curious software engineer.",
+    "ctadetail": {
+        "ctaLabel": "Projects",
+        "ctaLink": "/project"
+    },
+    "socialLinks": [
+        {
+            "socialLink": "https://www.linkedin.com/in/tarun-kolhe/",
+            "socialLabel": "LinkedIn",
+            "socialImage": "assets/sociallinkedin.svg"
+        },
+        {
+            "socialLink": "https://www.scaler.com/tarun/",
+            "socialLabel": "scaller",
+            "socialImage": "assets/socialgithub.svg"
+        },
+        {
+            "socialLink": "https://leetcode.com/tarunkolhe/",
+            "socialLabel": "leetcode",
+            "socialImage": "assets/socialleetcode.svg"
+        },
+        {
+            "socialLink": "https://github.com/tarun kolhe",
+            "socialLabel": "git",
+            "socialImage": "assets/socialfreecodecamp.svg"
+        }
+    ]
+}

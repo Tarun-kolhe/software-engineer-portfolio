@@ -1,0 +1,83 @@
+{
+    "aboutheader": "About Me",
+    "aboutdescription": "React.js developer with a strong command of backend technologies like Node.js and Express.js, focused on creating scalable, full-stack applications using the MERN stack. Proven experience in designing RESTful APIs, handling database operations, and optimizing frontend-backend workflows for high-performance web solutions.",
+    "aboutmoretitle": "Get to Know Me!",
+    "aboutmoredescription": "Hi, I'm Tarun Kolhe — a Frontend Web Developer based in Nagpur.I’ve had the opportunity to work remotely with agencies, collaborate with forward-thinking startups, and contribute to building meaningful digital products alongside creative professionals. My passion lies in crafting user-centric web experiences that make a real impact.",
+    "aboutmoredescriptiontwo":"I'm deeply enthusiastic about digital products and constantly explore a wide range of web and mobile applications across different industries and domains.If you'd like to connect or collaborate, don’t hesitate to get in touch — I’d love to hear from you!",
+    "contactcta": "Contact",
+    "labelmyskills": "My Skills",
+    "skills": [
+        {
+            "labelskill": "JavaScript",
+            "skilllogo": ""
+        },
+        {
+            "labelskill": "Typescript",
+            "skilllogo": ""
+        },
+        {
+            "labelskill": "Java",
+            "skilllogo": ""
+        },
+        {
+            "labelskill": "React.js",
+            "skilllogo": ""
+        },
+        {
+            "labelskill": "HTML",
+            "skilllogo": ""
+        },
+        {
+            "labelskill": "CSS",
+            "skilllogo": ""
+        },
+        {
+            "labelskill": "Bootstrap",
+            "skilllogo": ""
+        },
+        {
+            "labelskill": "Material UI",
+            "skilllogo": ""
+        },
+        {
+            "labelskill": "Node.js",
+            "skilllogo": ""
+        },
+        {
+            "labelskill": "Express.js",
+            "skilllogo": ""
+        },
+        {
+            "labelskill": "MySQL",
+            "skilllogo": ""
+        },
+        {
+            "labelskill": "REST APIs",
+            "skilllogo": ""
+        },
+        {
+            "labelskill": "Git",
+            "skilllogo": ""
+        },
+        {
+            "labelskill": "Webpack",
+            "skilllogo": ""
+        },
+        {
+            "labelskill": "Jest",
+            "skilllogo": ""
+        },
+        {
+            "labelskill": "Agile Methodology",
+            "skilllogo": ""
+        },
+        {
+            "labelskill": "Vite",
+            "skilllogo": ""
+        },
+        {
+            "labelskill": "Mongo DB",
+            "skilllogo": ""
+        }
+    ]
+}

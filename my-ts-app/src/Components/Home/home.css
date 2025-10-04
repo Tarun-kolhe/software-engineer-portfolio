@@ -1,0 +1,223 @@
+.intro-text h1, .intro-text h2 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  margin-top: 2rem;
+  display: flex;
+justify-content: center;
+text-align: center;
+}
+
+
+.header-main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 5rem;
+}
+
+.header-left-section{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.header-right-section{
+    display: flex;
+    gap: 20px;
+}
+.header{
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 100px;
+    background: rgb(255, 255, 255);
+}
+.home-hero {
+  color: #fff;
+  background: 
+    linear-gradient(to right, rgba(16, 14, 15, 0.7), rgba(0, 98, 185, 0.7)),
+    url('https://images.unsplash.com/photo-1607706189992-eae578626c86?auto=format&fit=crop&w=1600&q=80');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 2rem;
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+
+.home-hero__content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 90rem;
+    width: 92%;
+}  
+.home-hero__socialshomepage-desktop {
+    position: absolute;
+    top: 50%;
+    border: 1px solid #eee;
+    border-left: 1px solid #eee;
+    transform: translateY(-50%);
+    margin: 1px;
+    left: 0%;
+} 
+.home-hero__socialhomepage-desktop {
+    width: 3rem;
+}
+.home-hero__social-icon-link {
+    display: flex;
+    padding: 1rem;
+    border-bottom: 2px solid #eee;
+    transition: margin-right 4s;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+
+}
+.home-hero__mouse-scroll-cont {
+    position: absolute;
+    bottom: 3%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.heading-primary {
+    font-size: 3rem;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-align: center;
+}
+.home-hero__info {
+    margin: 3rem auto 0 auto;
+    max-width: 80rem;
+}
+.home-hero__cta {
+    margin-top: 5rem;
+    text-align: center;
+}
+.home-hero__mouse-scroll-cont {
+    position: absolute;
+    bottom: 3%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.text-primary {
+    color: #fff;
+    font-size: 1.7rem;
+    text-align: center;
+    width: 100%;
+    line-height: 1.6;
+    margin: 15px;
+}
+.btn--bg {
+    padding: 0.8rem 7rem;
+    font-size: 2rem;
+}
+.btn {
+    background: #fff;
+    color: #333;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    display: inline-block;
+    font-weight: 700;
+    border-radius: 5px;
+    box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.15);
+    transition: transform .3s;
+}
+.btn--bg {
+    padding: 1.5rem 8rem;
+    font-size: 1rem;
+}
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+    width: 24px;
+    height: 24px;
+}
+.dynamic-text{
+    color: white;
+}
+
+
+/*Mobile css*/
+
+@media only screen and (max-width: 37.5em) {
+    .home-hero__content {
+        padding: 6rem 0 5rem 0;
+        margin: auto;
+        position: static;
+        transform: translate(0, 0);
+    }
+    .text-primary {
+        font-size: 1rem;
+    }
+    .btn--bg {
+    padding: 1.1rem 5rem;
+    }
+    .dynamic-text{
+    display: block;
+}
+.home-hero__content {
+        padding: none;
+}
+/* Ensure the parent container has consistent height */
+.heading-primary {
+  display: inline-block;
+  min-height: 3.5rem; /* Adjust based on your font-size */
+  line-height: 1.2;
+}
+
+.heading-primary {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  font-size: 2.5rem;
+  min-height: 3.5rem; /* Adjust based on your font size */
+}
+
+.dynamic-text {
+  display: inline-block;
+  min-width: 250px; /* Longest word length */
+  height: 40px; /* Fix height to avoid vertical shift */
+  white-space: normal;
+  vertical-align: middle;
+  position: relative;
+}
+.home-hero__info {
+    margin: 5rem auto 0 auto;
+    max-width: 100%;
+}
+.home-hero__socialshomepage-desktop{
+    visibility: hidden;
+}
+.home-hero__cta {
+    margin-top: 2rem;
+    text-align: center;
+    align-content: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.text-primary {
+    color: #fff;
+    font-size: 1.2rem;
+    text-align: center;
+    width: 100%;
+    line-height: 1.3;
+    margin: auto;
+    font-size: 28px important;
+}
+
+
+}
